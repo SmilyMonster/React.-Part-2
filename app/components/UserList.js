@@ -31,13 +31,6 @@ export default class UserList extends React.Component {
 		this.setState({users: users});
 	}
 
-	componentWillReceiveProps(nextProps) {
-		this.setState({
-			users: nextProps.users,
-			term: nextProps.term
-		})
-	}
-
 	_removeUser (userId)
 	{
 		if(confirm('Are you sure ?'))

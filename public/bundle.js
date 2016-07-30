@@ -21546,14 +21546,6 @@
 				this.setState({ users: users });
 			}
 		}, {
-			key: 'componentWillReceiveProps',
-			value: function componentWillReceiveProps(nextProps) {
-				this.setState({
-					users: nextProps.users,
-					term: nextProps.term
-				});
-			}
-		}, {
 			key: '_removeUser',
 			value: function _removeUser(userId) {
 				if (confirm('Are you sure ?')) {
