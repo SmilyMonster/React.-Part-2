@@ -1,0 +1,76 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+body{
+	background: #cccccc;
+}
+#main{
+	width: 500px;
+	border: 1px solid black;
+	margin: 0 auto;
+	background: #B4B4B4;
+	
+}
+ul li {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 2%;
+	list-style-type: none;
+}
+ul li p {
+	padding-left: 5%;
+}
+ul li a {
+	color: #e50000;
+}
+ul li:hover {
+	border-color: #ffff00;
+}
+ul li i {
+	float: right;
+}
+ul{
+	 margin-left: 0;
+	 padding-left: 0;
+}
+#total {
+	text-align: center;
+	padding-bottom: 0;
+	padding-top: 2%;
+}
+input[type="text"]{
+	width: 60%;
+}
+input[type="submit"]{
+	width: 30%;
+}
+input {
+	display: inline-block;
+	margin: 2%;
+	padding: 5px;
+	outline-style: none;
+}
+hr{
+	width: 450px;
+}
+.moreInfo {
+	display:none;
+}
+#search {
+display: block;
+margin: 3% auto;
+width: 80%;
+}
+.fa-search {
+	position: absolute;
+	top: 5px;
+	left: 430px;
+
+
+}
+#searchBox{
+	position: relative;
+}
